@@ -1,0 +1,93 @@
+version: 3
+domain: Department of Veterans Affairs Logistics and Integration Platform
+created_by: AaronJaegerVA
+seed_examples:
+  - context: |
+        The VA Logistics and Integration (VALIP) Platform design offers a comprehensive set of agile integration and messaging capabilities that provide service composition and orchestration, real-time messaging, data streaming, and API management. Combined with a sophisticated container platform and cloud native tool chain, it lets developers connect applications and data with a variety of internal and external systems across hybrid architectures. The VALIP Platform offers a variety of integration patterns natively to allow for flexible microservice composition, one of the core characteristics of the platform is the eventing backbone that is a fundamental component of the platform. Enabled by the platform’s inherent ability to scale capacity up and down dynamically based on utilization and policies, the inherent load latency problems common with most middleware solutions is eliminated. The Supply Chain Management (SCM) VALIP Platform is designed to aid in the transformation of the SCM legacy portfolio into composable microservices that are highly configurable, interoperable, and flexible, resulting in platform extensibility that enables adaptation to future business demands and adoption of future technologies. VALIP pulls in Veteran, VA employees, and VA contractors PII/PHI as part of the data standardization initiative to include employee and contractor First Name, Last Name, Facility Address, Phone Number and Email Address. This information is stored within VALIP and incorporates role-based access controls (RBAC) and other data security policies. Other PHI/PII (i.e., Date of Birth, SSN, Veteran Full Name, Veteran Home Address, Veteran Email address, Prescription Information, and Site-Specific Order Number) are supported in applications hosted in VALIP. Access to this information is solely controlled by the application owner.
+    questions_and_answers:
+      - question: |
+           What does VALIP stand for?
+        answer: |
+           VALIP stands for VA Logistics and Integration Platform.
+      - question: |
+           What does SCM stand for?
+        answer: |
+           SCM stands for Supply Chain Management.
+      - question: |
+           What does VALIP do?
+        answer: |
+           VALIP is designed to aid in the transformation of the SCM legacy portfolio into composable microservices that are highly configurable, interoperable, and flexible, resulting in platform extensibility that enables adaptation to future business demands and adoption of future technologies.
+  - context: |
+        In some cases, VA may choose to retain files in active status and archive them after a certain period of time. State active file retention periods, as well as archived records, in number of years, for the information and record types. For example, financial data held within your system may have a different retention period than medical records or education records held within your system, please be sure to list each of these retention periods. The VA records officer should be consulted early in the development process to ensure that appropriate retention and destruction schedules are implemented. If the system is using cloud technology, will it be following the NARA approved retention length and schedule? This question is related to privacy control DM-2, Data Retention and Disposal. VALIP follows the VA Retention Policy and Schedule (5 Years).
+    questions_and_answers:
+      - question: |
+          How long is data retained on VALIP?
+        answer: |
+          The retention policy for data dependson the data type, although the standard retention policy and schedule is 5 years.
+      - question: |
+          What types of data are stored on VALIP?
+        answer: |
+          VALIP houses financial, medical, education, and other types of data.
+      - question: |
+          Who should be consulted about data retention policies on VALIP?
+        answer: |
+          The VA records officer should be consulted early in the development process to ensure that appropriate retention and destruction schedules are implemented.
+  - context: |
+        4.1 With which internal organizations is information shared/received/transmitted? What information is shared/received/transmitted, and for what purpose? How is the information transmitted?
+        NOTE: Question 3.9 (second table) on Privacy Threshold Analysis should be used to answer this question.
+        Identify and list the names of any program offices, contractor-supported IT systems, and any other organization or IT system within VA with which information is shared.
+        State the purpose for the internal sharing. If you have specific authority to share the information, provide a citation to the authority.
+        For each interface with a system outside your program office, state what specific data elements (PII/PHI) are shared with the specific program office, contractor-supported IT system, and any other organization or IT system within VA.
+        Describe how the information is transmitted. For example, is the information transmitted electronically, by paper, or by some other means? Is the information shared in bulk, on a case-by-case basis, or does the sharing partner have direct access to the information? This question is related to privacy controls AP-2, Purpose Specification, AR-3, Privacy Requirements for Contractors and Service Providers, AR-8, Accounting of Disclosures, TR-1, Privacy Notice, and UL-1, Internal Use.
+    questions_and_answers:
+      - question: |
+          With which internal organizations is information shared/received/transmitted?
+        answer: |
+          4Sight-II, SCDIO, etc.
+      - question: |
+          How is information transmitted?
+        answer: |
+          Through secure protocols including HTTPS and SFTP.
+      - question: |
+          Is this information shared in bulk?
+        answer: |
+          No. Specific information is shared based on specific requests.
+  - context: |
+        Individuals are provided with a copy of the Notice of Privacy Practices that indicates when information will be used without their consent and when they will be asked to provide consent. Information is used, accessed and disclosed in accordance with the Privacy Act, 5 USC 552a, Title 38 USC 5701, Confidential Nature of Claims, Title USC 7332 and the HIPAA Privacy Rule 45 CFR.
+        Individuals or their legal representative may consent to the use or disclosure of information via a written request submitted to their facility Privacy Officer. Individuals also have the right to request a restriction to the use of their information. The written request must state what information and/or to whom the information is restricted and must include their signature and date of the request. The request is then forwarded to facility Privacy Officer for review and processing. Individuals may also request to Opt-Out of the facility directory during an inpatient admission. If the individual chooses to opt-out, information is not disclosed from the facility directory unless otherwise required by law.
+    questions_and_answers:
+      - question: |
+          How can people find out what information is shared?
+        answer: |
+          Individuals are provided with a copy of the Notice of Privacy Practices that indicates when information will be used without their consent and when they will be asked to provide consent.
+      - question: |
+          Can individuals request their information be restricted?
+        answer: |
+          Yes. Individuals also have the right to request a restriction to the use of their information.
+      - question: |
+          Can individuals opt-out of the facility directory?
+        answer: |
+          Yes. Individuals may also request to Opt-Out of the facility directory during an inpatient admission.
+  - context: |
+        There are several ways a veteran or other beneficiary may access information about them. The Department of Veterans’ Affairs has created the MyHealthEVet program to allow online access to their medical records. More information on this program and how to sign up to participate can be found online at https://www.myhealth.va.gov/index.html. Veterans and other individuals may also request copies of their medical records and other records containing personal data from the medical facility’s Release of Information (ROI) office.
+        VHA Directive 1605.01, Privacy and Release of Information, Paragraph 7 outlines policy and procedures for VHA and its staff to provide individuals with access to and copies of their PII in compliance with the Privacy Act and HIPAA Privacy Rule requirements. VHA also created VA form 10-5345a for use by individuals in requesting copies of their health information under right of access.VA Form 10-5345a is voluntary but does provide an easy way for individual to request their records.
+    questions_and_answers:
+      - question: |
+          How can Veterans access their information?
+        answer: |
+          The Department of Veterans’ Affairs has created the MyHealthEVet program to allow online access to their medical records.
+      - question: |
+          How can Veterans access their PII?
+        answer: |
+          VHA also created VA form 10-5345a for use by individuals in requesting copies of their health information under right of access.
+      - question: |
+          Are there other ways for Veterans to request their medical records?
+        answer: |
+          Veterans and other individuals may also request copies of their medical records and other records containing personal data from the medical facility’s Release of Information (ROI) office.
+document_outline: |
+  Describes Veterans Affairs Logistics Integration Platform
+document:
+  repo: https://github.com/AaronJaegerVA/valip-knowledge
+  commit: 815e5668415f2de68200a06410d3beb16b9aa278
+  patterns:
+    - FY24VALogisticsIntegrationPlatformVALIPPIA.pdf
