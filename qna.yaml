@@ -25,7 +25,7 @@ seed_examples:
       This information is stored within VALIP and incorporates role-based access
       controls (RBAC) and other data security policies. Other PHI/PII (i.e., Date
       of Birth, SSN, Veteran Full Name, Veteran Home Address, Veteran Email address,
-      Prescription Information, and Site-Specific Order Number) are supported in 
+      Prescription Information, and Site-Specific Order Number) are supported in
       pplications hosted in VALIP. Access to this information is solely controlled
         by the application owner.
     questions_and_answers:
