@@ -27,7 +27,7 @@ seed_examples:
       of Birth, SSN, Veteran Full Name, Veteran Home Address, Veteran Email address,
       Prescription Information, and Site-Specific Order Number) are supported in
       pplications hosted in VALIP. Access to this information is solely controlled
-        by the application owner.
+      by the application owner.
     questions_and_answers:
       - question: |
           What does VALIP stand for?
