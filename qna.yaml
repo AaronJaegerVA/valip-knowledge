@@ -9,41 +9,25 @@ seed_examples:
       Combined with a sophisticated container platform and cloud native tool chain,
       it lets developers connect applications and data with a variety of internal and
       external systems across hybrid architectures. The VALIP Platform offers a variety
-      of integration patterns natively to allow for flexible microservice composition,
-      one of the core characteristics of the platform is the eventing backbone that is
+      of integration patterns natively to allow for flexible microservice composition.
+      One of the core characteristics of the platform is the eventing backbone that is
       a fundamental component of the platform. Enabled by the platform’s inherent
       ability to scale capacity up and down dynamically based on utilization and
       policies, the inherent load latency problems common with most middleware
-      solutions is eliminated. The Supply Chain Management (SCM) VALIP Platform
-      is designed to aid in the transformation of the SCM legacy portfolio into
-      composable microservices that are highly configurable, interoperable, and
-      flexible, resulting in platform extensibility that enables adaptation to
-      future business demands and adoption of future technologies. VALIP pulls
-      in Veteran, VA employees, and VA contractors PII/PHI as part of the
-      data standardization initiative to include employee and contractor
-      First Name, Last Name, Facility Address, Phone Number and Email Address.
-      This information is stored within VALIP and incorporates role-based access
-      controls (RBAC) and other data security policies. Other PHI/PII (i.e., Date
-      of Birth, SSN, Veteran Full Name, Veteran Home Address, Veteran Email address,
-      Prescription Information, and Site-Specific Order Number) are supported in
-      pplications hosted in VALIP. Access to this information is solely controlled
-      by the application owner.
+      solutions is eliminated.
     questions_and_answers:
       - question: |
           What does VALIP stand for?
         answer: |
           VALIP stands for VA Logistics and Integration Platform.
       - question: |
-          What does SCM stand for?
+          What capabilities does VALIP provide?
         answer: |
-          SCM stands for Supply Chain Management.
+          VALIP provides service composition, orchestration, real-time messaging, data streaming, and API management features.
       - question: |
-          What does VALIP do?
+          Can VALIP be used for application integration?
         answer: |
-          VALIP is designed to aid in the transformation of the SCM legacy portfolio
-          into composable microservices that are highly configurable, interoperable,
-          and flexible, resulting in platform extensibility that enables adaptation
-          to future business demands and adoption of future technologies.
+          Yes. VALIP offers a wide variety of integration patterns.
   - context: |
       In some cases, VA may choose to retain files in active status and archive them
       after a certain period of time. State active file retention periods, as well
