@@ -27,10 +27,12 @@ following elements:
 
 ## General Description
 1. What is the IT system name and the name of the program office that owns the IT system?
+
 VA Logistics Integration Platform (VALIP), VHA Health Enterprise & Logistics
 Management (HELM).
 1. What is the business purpose of the program, IT system, or technology and how it relates to
 the program office and agency mission?
+
 VA established the Healthcare Environment and Logistics Management (HELM) program
 to lead the modernization of the VA supply chain product line. Recognizing the need for a
 DevSecOps platform to support modernization efforts, the VA Logistics Integration
