@@ -24,21 +24,21 @@ hosted in VALIP. Access to this information is solely controlled by the applicat
 The overview is the most important section of the PIA. A thorough and clear overview gives the reader
 the appropriate context to understand the responses in the PIA. The overview should contain the
 following elements:
-1 General Description
-A. What is the IT system name and the name of the program office that owns the IT system?
+
+## General Description
+1. What is the IT system name and the name of the program office that owns the IT system?
 VA Logistics Integration Platform (VALIP), VHA Health Enterprise & Logistics
 Management (HELM).
-B. What is the business purpose of the program, IT system, or technology and how it relates to
+1. What is the business purpose of the program, IT system, or technology and how it relates to
 the program office and agency mission?
 VA established the Healthcare Environment and Logistics Management (HELM) program
 to lead the modernization of the VA supply chain product line. Recognizing the need for a
 DevSecOps platform to support modernization efforts, the VA Logistics Integration
 Platform (VALIP) was built as a single, data-driven, interoperable environm
 DevSecOps pipeline, composable microservice architecture, integrated data fabric, and
-Version date: October 1, 2023
-security modernization serve as the foundation for modernizing the VA supply chain. This
-digital transformation is essential in enabling a modern, connected healthcare experience
-for veterans through faster, more secure, and costarchitecture
+Version date: October 1, 2023 security modernization serve as the foundation for modernizing
+the VA supply chain. This digital transformation is essential in enabling a modern, connected
+healthcare experience for veterans through faster, more secure, and costarchitecture
 is helping to streamline the distribution of medical supplies and equipment
 and yield significant cost savings. Its highly adaptable design not only facilitates
 modernization within the VA supply chain but also enhances compatibility with other
@@ -46,50 +46,55 @@ advanced systems such as the VA Integrated Financial Management System (iFAMS) a
 Enterprise Health Records Modernization (EHRM). By shortening delivery times,
 minimizing expenses, and improving the utilization of IT initiatives, VALIP is paving the
 way for a more efficient and integrated VA enterprise.
-C. Who is the owner or control of the IT system or project?
+1. Who is the owner or control of the IT system or project?
 VA Owned and VA Operated
-2. Information Collection and Sharing
-D. What is the expected number of individuals whose information is stored in the system and a
+
+## Information Collection and Sharing
+1. What is the expected number of individuals whose information is stored in the system and a
 brief description of the typical client or affected individual?
 Currently there are 9,820,134 distinct individuals in the SSTAFF Table for VA Staff
 All Veterans in VistA system.
-E. What is a general description of the information in the IT system and the purpose for
+1. What is a general description of the information in the IT system and the purpose for
 collecting this information?
 VALIP hosted applications connect to this data for analytics and reporting purposes.
 The Data is for all current VA Staff and Patients.
-F. What information sharing is conducted by the IT system? A general description of the
+1. What information sharing is conducted by the IT system? A general description of the
 modules and subsystems, where relevant, and their functions.
 4 SIGHT II Eyeglass Prescription Orders
 VistA All Patient Data
 SCDIO/SCMD Staff Data
-G. Is the system is operated in more than one site, and if so, a description of how use of the
+1. Is the system is operated in more than one site, and if so, a description of how use of the
 system and PII is maintained consistently in all sites and if the same controls are used across
 sites?
 Yes, For 4sight-II, depending on the site they will be supporting, the PII/PHI will be retrieved
 on the identified sites using 4-sight-II application.
-3. Legal Authority and SORN
-H. What is the citation of the legal authority to operate the IT system?
-The information in VALIP so it is not a
-Privacy Act System of Record. The information is obtained from the VHA Corporate
-Data Warehouse, which is maintained under Title 38, United States Code, Section 501.
-I. If the system is in the process of being modified and a SORN exists, will the SORN require
+
+## Legal Authority and SORN
+1. What is the citation of the legal authority to operate the IT system?
+The information in VALIP so it is not a Privacy Act System of Record. The information
+is obtained from the VHA Corporate Data Warehouse, which is maintained under Title 38,
+United States Code, Section 501.
+1. If the system is in the process of being modified and a SORN exists, will the SORN require
 amendment or revision and approval? If the system is using cloud technology, does the SORN
 for the system cover cloud usage or storage?
 Version date: October 1, 2023
 The information in VALIP is not searcha r and does not fall
 under a Privacy Act SORN.
-4. System Changes
-J. Will the completion of this PIA will result in circumstances that require changes to business
+
+## System Changes
+1. Will the completion of this PIA will result in circumstances that require changes to business
 processes?
 No
-K. Will the completion of this PIA could potentially result in technology changes?
+
+1. Will the completion of this PIA could potentially result in technology changes?
 No
 
 # Characterization of the Information
 
 The following questions are intended to define the scope of the information requested and collected as
 well as the reasons for its collection as part of the program, IT system, or technology being developed.
-1.1 What information is collected, used, disseminated, created, or maintained in the system?
+
+1. What information is collected, used, disseminated, created, or maintained in the system?
 Identify and list all Sensitive Personal Information (SPI) that is collected and stored in the system,
 including Individually Identifiable Information (III), Individually Identifiable Health Information (IIHI),
 Protected Health Information (PHI), and Privacy- Protected Information. For additional information on
@@ -220,38 +225,37 @@ User/Role-
 Based Access
 Controls
 Version date: October 1, 2023
-1.2 What are the sources of the information in the system?
+1. What are the sources of the information in the system?
 These questions are related to privacy controls DI-1, Data Quality, and IP-1, Consent.
-1.2a List the individual, entity, or entities providing the specific information identified above. For
+1. List the individual, entity, or entities providing the specific information identified above. For
 example, is the information collected directly from the individual as part of an application for a
 benefit, or is it collected from other sources such as commercial data aggregators?
 VHA Corporate Data Warehouse (CDW).
-1.2b Describe why information from sources other than the individual is required? For example, if a
+1. Describe why information from sources other than the individual is required? For example, if a
 gregator of information or data taken from
 public Web sites, state the fact that this is where the information is coming from and then in question
 indicate why the system is using this source of data.
 The information is obtained from CDW as it is the source that is connected to VistA
-1.2c Does the system create information (for example, a score, analysis, or report), list the system as
+1. Does the system create information (for example, a score, analysis, or report), list the system as
 a source of information?
 There are analysis reports in the SCDIO Toolbox.
 There are new reports being created to replicate existing fusion charts for SEPG.
-1.3 How is the information collected?
+1. How is the information collected?
 These questions are related to privacy controls DI-1, Data Quality, and IP-1, Consent.
-1.3a This question is directed at the means of collection from the sources listed in question 1.2.
+1. This question is directed at the means of collection from the sources listed in question 1.2.
 Information may be collected directly from an individual, received via electronic transmission from
 another system, or created by the system itself. Specifically, is information collected through
 technologies or other technologies used in the storage or transmission of information in identifiable
 form?
 The data is extracted from the VHA Corporate Data Warehouse (CDW) using Talend in a
 Extract Transform & Load (ETL) process.
-1.3b If the information is collected on a form and is subject to the Paperwork Reduction Act, what is
-?
+1. If the information is collected on a form and is subject to the Paperwork Reduction Act, what is?
 VALIP does not collect any PII/PHI on a form, therefore it is not subject to the
 Paperwork Reduction Act.
-1.4 How will the information be checked for accuracy? How often will it be checked?
+1. How will the information be checked for accuracy? How often will it be checked?
 These questions are related to privacy controls DI-1, Data Quality, and DI-2, Data Integrity and
 Integrity Board.
-1.4a Discuss whether and how often information stored in the system is checked for accuracy. Is
+1. Discuss whether and how often information stored in the system is checked for accuracy. Is
 information in the system checked against any other source of information (within or outside your
 organization) before the information is used to make decisions about an individual? For example, is
 there a computer matching agreement in place with another government agency? For systems that
@@ -262,11 +266,11 @@ This information is provided from the source and is updated as changes are made 
 source system, changes are not made outside of the source-initiated changes, therefore all
 responsibility for the validation of the accuracy of the data is on the source system data
 Subject Matter Experts (SMEs).
-1.4b Does the system check for accuracy by accessing a commercial aggregator of information,
+1. Does the system check for accuracy by accessing a commercial aggregator of information,
 describe this process and the levels of accuracy required by the contract?
 VALIP uses information collected from other data systems. Accuracy is checked by those
 systems before it is included in CDW.
-1.5 What specific legal authorities, arrangements, and agreements defined the collection of
+1. What specific legal authorities, arrangements, and agreements defined the collection of
 information?
 List the full legal authority for operating the system, specifically the authority to collect the
 information listed in question 1.1. Provide the authorities in a manner understandable to any
@@ -275,7 +279,7 @@ addition to citations. Legal authorities include Federal laws, regulations, stat
 Orders. This question is related to privacy control AP-1, Authority to Collect
 Privacy Act System of Record. The information is obtained from the VHA Corporate
 Data Warehouse, which is maintained under Title 38, United States Code, Section 501.
-1.6 PRIVACY IMPACT ASSESSMENT: Characterization of the information
+1. PRIVACY IMPACT ASSESSMENT: Characterization of the information
 Consider the specific data elements collected and discuss the potential privacy risks and what steps,
 if any are currently being taken to mitigate those identified risks. (Work with your System ISSO to
 complete this section)
