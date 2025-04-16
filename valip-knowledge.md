@@ -27,8 +27,10 @@ following elements:
 
 ## General Description
 1. What is the IT system name and the name of the program office that owns the IT system?
-  1. VA Logistics Integration Platform (VALIP), VHA Health Enterprise & Logistics
+
+VA Logistics Integration Platform (VALIP), VHA Health Enterprise & Logistics
 Management (HELM).
+
 1. What is the business purpose of the program, IT system, or technology and how it relates to
 the program office and agency mission?
 
